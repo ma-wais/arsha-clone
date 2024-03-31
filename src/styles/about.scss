@@ -1,0 +1,127 @@
+.aboutUs{
+    margin-top: 30px;
+    text-align: center;
+
+}
+.icon2{
+  transform: translate(-5px,0);
+}
+.aboutInfo{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+
+    >div{
+        text-align: left;
+        >p{
+            margin: 10px 0;
+        }
+
+        &:last-of-type{
+            button{
+                border: 2px solid rgb(104, 169, 230);
+                background-color: inherit;
+                border-radius: 4px;
+                color: rgb(104, 169, 230);
+                padding: 10px 20px;
+                transition: 0.5s;
+
+                &:hover{
+                    color: #fff;
+                    background-color:rgb(104, 169, 230);
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}
+.about{
+    background-color: aliceblue;
+ >section{
+    display: flex;
+    width: 85%;
+    margin: 30px auto;
+
+    div{
+        >h2{
+            padding-top: 40px;
+            font-size: 30px;
+            font-weight: 500;
+        }
+        p{
+            padding: 10px 10px 10px 0; 
+        }
+        >article{
+            margin: 10px 0;
+            background-color: #fff;
+            width: 95%;
+            border-radius: 5px;
+            height: max-content;
+            >aside{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    height: 50px;
+                >h3{
+                    font-size: 17px;
+                    font-weight: 500;
+                    span{ color: rgb(104, 169, 230); margin: 15px; height: full;}
+                    
+                }&:hover{
+                        color:rgb(104, 169, 230);
+                    }
+            }
+            >p{
+                display: none;
+            }
+        }
+    }
+}
+img{
+    width: 40%;
+    height: 400px;
+}
+}
+.about2{
+    >article{
+        display: flex;
+        width: 80%;
+        margin: 30px auto;
+
+        div{
+            padding-left: 20px;
+            margin: 30px auto;
+
+            >section{
+
+                >div{
+                    &:first-of-type{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    &:last-of-type{
+                        background-color: #e0dddd;
+                        width: 90%;
+                        height: 6px;
+                        
+                        >div{
+                            background-color: rgb(113, 97, 255);
+                            height: 6px;
+                            
+                            z-index: 2;
+                            margin-left: -20px;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        img{
+            width: 50%;
+            margin: 10% 0 10% 0; 
+        }
+    }
+}
